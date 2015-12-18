@@ -1,0 +1,17 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		 {
+            "name": "Launch index.html",
+            "type": "chrome",
+            "request": "launch",
+            "file": "index.html",
+			"sourceMaps": true,
+		    "runtimeExecutable": "C:/Users/Roko/AppData/Local/Google/Chrome/Application/chrome.exe",
+			"runtimeArgs": [
+				"--new-window --remote-debugging-port=9222"
+			],
+			"cwd": "."
+				}        
+	]
+}
