@@ -26,7 +26,7 @@ class Field{
 	
 	Open(e){
 		e.preventDefault();		
-		if(this.status!=0)
+		if(this.status!=0 && this.status!=2)
 			return;
 		
 		this.onFieldClickCallback(this);
@@ -35,6 +35,9 @@ class Field{
 	MarkAsBomb(e){
 		e.preventDefault();
 		
+		if(this.status===1)
+			return;
+			
 		if(this.status===0){
 			this.SetMarkedState();
 			this.onBombMarkedCallback(true);	
