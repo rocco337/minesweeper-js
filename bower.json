@@ -1,0 +1,30 @@
+{
+  "name": "minesweeper-js",
+  "authors": [
+    "rocco337 <roko.bobic@gmail.com>"
+  ],
+  "description": "Popular game implemented in javascript",
+  "main": "index.html",
+  "moduleType": [
+    "es6"
+  ],
+  "keywords": [
+    "minesweeper",
+    "js",
+    "es6",
+    "materialize",
+    "vanillajs"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Materialize": "materialize#~0.97.3"
+  }
+}
